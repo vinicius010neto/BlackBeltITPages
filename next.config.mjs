@@ -2,6 +2,6 @@
 const nextConfig = {
   output: 'export',
   distDir: 'out',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/<frontEndBlackBeltIT>' : '',
+  assetPrefix: './',
 };
 export default nextConfig;
